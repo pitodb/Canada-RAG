@@ -17,5 +17,5 @@ def save_note(note):
 note_engine = FunctionTool.from_defaults(
     fn=save_note,
     name="note_saver",
-    description="pietro del bianco",
+    description="this tool that can save a text based note to a file for the user",
 )
